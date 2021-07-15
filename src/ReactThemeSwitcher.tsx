@@ -185,10 +185,10 @@ const ThemeSwitchInput = styled("input")`
 `;
 
 export const ReactThemeSwitcher: React.FC<ReactThemeSwitcherProps> = ({
-  checked,
+  lightsOff,
   onChange,
 }) => {
-  const [status, setStatus] = useState<boolean>(checked);
+  const [status, setStatus] = useState<boolean>(lightsOff);
 
   const handleChange = (evt) => {
     setStatus(evt.target.checked);
