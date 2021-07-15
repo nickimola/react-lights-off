@@ -1,6 +1,6 @@
-declare module "ReactThemeSwitcher";
+declare module "ReactLightsOff";
 
-export interface ReactThemeSwitcherProps {
+export interface ReactLightsOffProps {
   lightsOff: boolean;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }

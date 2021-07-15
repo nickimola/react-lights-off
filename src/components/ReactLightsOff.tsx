@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { ReactThemeSwitcherProps } from "./ReactThemeSwitcherProps";
+import { ReactLightsOffProps } from "../types";
 
 const ThemeSwtich = styled("div")`
   margin-top: 20px;
@@ -184,7 +184,7 @@ const ThemeSwitchInput = styled("input")`
   }
 `;
 
-export const ReactThemeSwitcher: React.FC<ReactThemeSwitcherProps> = ({
+export const ReactLightsOff: React.FC<ReactLightsOffProps> = ({
   lightsOff,
   onChange,
 }) => {

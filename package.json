@@ -1,6 +1,6 @@
 {
-  "name": "react-theme-switcher",
-  "version": "1.0.0",
+  "name": "react-lights-off",
+  "version": "1.0.1",
   "description": "Simple react switcher component to change between night and day",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickimola/react-theme-switcher.git"
+    "url": "git+https://github.com/nickimola/react-lights-off.git"
   },
   "keywords": [
     "theme",
@@ -52,7 +52,7 @@
   "author": "Nicholas Lazzerini <info@nicholaslazzerini.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickimola/react-theme-switcher/issues"
+    "url": "https://github.com/nickimola/react-lights-off/issues"
   },
-  "homepage": "https://github.com/nickimola/react-theme-switcher#readme"
+  "homepage": "https://github.com/nickimola/react-lights-off#readme"
 }
