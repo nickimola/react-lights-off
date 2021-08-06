@@ -1,6 +1,6 @@
 {
   "name": "react-lights-off",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple react switcher component to change between night and day",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
