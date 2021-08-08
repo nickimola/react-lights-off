@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { ReactLightsOffProps } from "../types";
+import { ReactLightsOffProps } from "..";
 
 const ThemeSwtich = styled("div")`
-  margin-top: 20px;
   display: inline-block;
   position: relative;
 `;
@@ -202,15 +201,16 @@ export const ReactLightsOff: React.FC<ReactLightsOffProps> = ({
         checked={status}
         name="react-theme-switcher"
         onChange={(evt) => handleChange(evt)}
+        value={""}
       />
       <ThemeSwitchLabel htmlFor="react-theme-switcher">
         <ThemeSwitchHandle>
           {Array.from({ length: 3 }, (_, index) => (
-            <Crater className={`crater-${index}`}></Crater>
+            <Crater key={index} className={`crater-${index}`}></Crater>
           ))}
         </ThemeSwitchHandle>
         {Array.from({ length: 6 }, (_, index) => (
-          <StarCloud className={`star-${index}`}></StarCloud>
+          <StarCloud key={index} className={`star-${index}`}></StarCloud>
         ))}
       </ThemeSwitchLabel>
     </ThemeSwtich>
